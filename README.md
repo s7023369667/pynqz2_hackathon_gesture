@@ -23,7 +23,7 @@ Install other python packages that we need :
 Android APP setup : 
 Just put apk into your android device .
 
-    * MQTT_in0.apk
+    * MQTT_in0-release.apk
 
 We use supervisor to automatically execute our mqtt_receiver.py or you could directly use python interpreter to do it.
 
@@ -35,3 +35,7 @@ We use supervisor to automatically execute our mqtt_receiver.py or you could dir
     
     # sudo python3 mqtt_receiver.py
 
+we use the static IP at mc2-lab, if you are going to reset the static IP:
+    
+    # modify the netplan_cfg.yaml file
+    * sudo netplan apply
