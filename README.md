@@ -35,7 +35,7 @@ We use supervisor to automatically execute our mqtt_receiver.py or you could dir
     
     # sudo python3 mqtt_receiver.py
 
-While we remote our PYNQ-Z2 by ssh we are using RSA to avoid password login
+While we remote our PYNQ-Z2 by ssh we are using RSA to avoid password login:
     
     * sshkeygen
     # install ssh-copy-id
