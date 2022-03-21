@@ -35,7 +35,8 @@ We use supervisor to automatically execute our mqtt_receiver.py or you could dir
     
     # sudo python3 mqtt_receiver.py
 
-we use the static IP at mc2-lab, if you are going to reset the static IP:
+we use the static IP at mc2-lab:
     
-    # modify the netplan_cfg.yaml file
+    * nano /etc/netplan/netplan_cfg.yaml
+    * sudo netplan try
     * sudo netplan apply
