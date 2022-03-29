@@ -66,7 +66,7 @@ def read_samples(test_path):
                             break
 
 if __name__ == '__main__':
-    model_OaP = load_model("./OaP_SAM_anchor3_0907_.h5",custom_objects={
+    model_OaP = load_model("./model/best_OaP_SAM_anchor2_32_0911_.h5",custom_objects={
         'OaP_GD_loss':OaP_GD_loss,
         'GroupNormalization':GroupNormalization})
     test_base_dir = "./test_data"
