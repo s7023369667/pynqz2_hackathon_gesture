@@ -37,8 +37,8 @@ We use supervisor to automatically execute our mqtt_receiver.py or you could dir
 
 While we remote our PYNQ-Z2 by ssh we are using RSA to avoid password login:
     
-    * sshkeygen
-    # install ssh-copy-id
+    * ssh-keygen
+    * apt-get install ssh-copy-id
     * ssh-copy-id -i <Public Key path>  xilinx@<STATIC IP -p port>
     
 we use the static IP at mc2-lab:
