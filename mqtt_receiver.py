@@ -9,6 +9,7 @@ from telegram_bot import telegrambot
 ##receiver
 def on_connect(client, userdata, flags, rc):
     tb.send_message("Connected with mosquitto broker.")
+    print("Connecting...")
     client.subscribe("mqtt")   #topic : mqtt
 
 def on_message(client, userdata, msg):
@@ -64,6 +65,7 @@ def job(window_size,count):
                 print(f"Total cost : {endtime-starttime}")
                 starttime = time.time()
                 tb.send_photo(result)
+                print("Result:",result)
                 is_detected = True
                 queue = []
                 PKI_t, PKI_c, SKI_t, SKI_c = 0, 0, 0, 0
