@@ -19,6 +19,7 @@ Install other python packages that we need :
 
     * pip install paho-mqtt
     * pip install python-telegram-bot-raw --upgrade
+    # Make sure you use tensorflow==2.3.0 & keras==2.4.3 
 
 Android APP setup : 
 Just put apk into your android device .
