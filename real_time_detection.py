@@ -68,7 +68,7 @@ class Detection():
 def main():
     model_name = "Unet_classify_win_100_wh_0.1_focal_ahpha2_beta4_2021-08-16-15-13-56"
     windows_size = 100
-    portName = '/dev/ttyACM0'  # for windows users
+    portName = '/dev/ttyACM0'  # for linux users
     baudRate = 115200
     maxPlotLength = windows_size
     dataNumBytes = 4  # number of bytes of 1 data point
@@ -99,8 +99,8 @@ def main():
 
 
 if __name__ == "__main__":
-    id = "1928130820"
-    token = "1997238109:AAFrdEtGSNVzYvX_9JDvuK9C_5o6My7qjto"
+    id = "xxx"
+    token = "xxx"
     bot = telegram.Bot(token=token)
     bot.send_message(chat_id=id, text="Running real_time_detection.py")
     base = Overlay('./overlay/test.bit')  # IP setting from vivado
