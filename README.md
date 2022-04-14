@@ -1,4 +1,4 @@
-# pynqz2_hackathon_phone_ges
+# pynqz2_hackathon_phone_gesture
 
 PYNQ-Z2 Environment Setup : 
 
