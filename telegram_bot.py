@@ -18,8 +18,8 @@ class telegram_bot():
 
 
 # if __name__ == '__main__':
-    # token = '1916008529:AAGydfJQXNZtHuVFt63ahXSZJcIjPa8ZNWg'
-    # chat_id = 1963689302
+    # token = 'xxx'
+    # chat_id = xxx
     # tb = telegram_bot(1963689302,'1916008529:AAGydfJQXNZtHuVFt63ahXSZJcIjPa8ZNWg')
     # tb.send_photo(5)
     # tb.send_message(5)
