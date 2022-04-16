@@ -99,6 +99,7 @@ def main():
 
 
 if __name__ == "__main__":
+    # # id & token in bot_key.txt 
     id = "xxx"
     token = "xxx"
     bot = telegram.Bot(token=token)
