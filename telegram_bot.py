@@ -20,6 +20,6 @@ class telegram_bot():
 # if __name__ == '__main__':
     # token = 'xxx'
     # chat_id = xxx
-    # tb = telegram_bot(1963689302,'1916008529:AAGydfJQXNZtHuVFt63ahXSZJcIjPa8ZNWg')
+    # tb = telegram_bot(chat_id,token)
     # tb.send_photo(5)
     # tb.send_message(5)
